@@ -1,4 +1,5 @@
 const express = require('express');
+const {doSomeHeavyTask} = require("./util")
 
 const app = express();
 const PORT = process.env.PORT || 8000;
